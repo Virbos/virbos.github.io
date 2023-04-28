@@ -1,0 +1,38 @@
+#top-thingy {
+    font-family: Anonymous Pro;
+    position: absolute;
+    top: -10px;
+    padding-left: 10px;
+    border-bottom: 30px;
+    border-color: black;
+    color:lawngreen;
+    background-color: black;
+}
+#th1 {
+    position: relative;
+    left: 90px;
+    bottom: 53px;
+}
+html {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+#virbos-logo {
+    position: relative;
+    top: 30px;
+}
+#downloads-button {
+    font-family: Anonymous Pro;
+    color: lawngreen;
+    background-color: black;
+    font-size:x-large;
+    border-color: lawngreen;
+    cursor: pointer;
+    
+}
+
+@font-face {
+    font-family: Anonymous Pro;
+    src: url('font.ttf')
+}   
