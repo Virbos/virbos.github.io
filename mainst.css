@@ -26,13 +26,17 @@ html {
     font-family: Anonymous Pro;
     color: lawngreen;
     background-color: black;
-    font-size:x-large;
+    font-size:xx-large;
     border-color: lawngreen;
+    border: none;
     cursor: pointer;
+    position: relative;
+    bottom: 112px;
+    left: 350px;
     
 }
 
 @font-face {
     font-family: Anonymous Pro;
     src: url('font.ttf')
-}   
+}     
