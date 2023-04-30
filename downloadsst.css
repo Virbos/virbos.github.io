@@ -1,17 +1,9 @@
-#top-thingy {
+#logo-holder {
     font-family: Anonymous Pro;
-    position: absolute;
-    top: -10px;
-    padding-left: 10px;
-    border-bottom: 30px;
-    border-color: black;
-    color:lawngreen;
+    color: lawngreen;
     background-color: black;
-}
-#th1 {
-    position: relative;
-    left: 90px;
-    bottom: 53px;
+    text-align: center;
+    height: 143px;
 }
 html {
     background-color: black;
@@ -22,6 +14,18 @@ html {
     position: relative;
     top: 30px;
 }
+a {
+    color: lawngreen;
+}
+#get-button {
+    font-family: Anonymous Pro;
+    color: lawngreen;
+    background-color: black;
+    font-size:xx-large;
+    border: none;
+    cursor: pointer;
+    
+}
 #home-button {
     font-family: Anonymous Pro;
     color: lawngreen;
@@ -31,12 +35,50 @@ html {
     border: none;
     cursor: pointer;
     position: relative;
-    bottom: 113px;
-    left: 450px;
-    
+    bottom: 112px;
+    left: 350px;
 }
+#border {
+    border: 5px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-style:solid;
+    border-color: lawngreen;
+    position: relative;
+    height: 45px;
+}
+#welcome-text {
+    position: relative;
+    padding: -10px;
+    height: 45px;
+    font-family: Ioskeva;
+    color: white;
+    text-align: center;
+    border: none;
+    bottom: 50px;    
+
+}
+#buttons {
+    text-align: center;
+}
+#download1 {
+    border: none;
+    font-family: Ioskeva;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-size: x-large;
+    margin: auto;
+}
+
 
 @font-face {
     font-family: Anonymous Pro;
-    src: url('font.ttf')
+    src: url('font.ttf');
 }   
+
+@font-face {
+    font-family: Ioskeva;
+    src: url('font2.ttf')
+}
