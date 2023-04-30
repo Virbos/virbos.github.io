@@ -5,6 +5,12 @@
     text-align: center;
     height: 143px;
 }
+#secret-test {
+   color: black;
+   border: none;
+   background-color: black;
+    
+}    
 html {
     background-color: black;
     width: 100vw;
