@@ -5,6 +5,13 @@
     text-align: center;
     height: 143px;
 }
+#secret-test {
+   color: black;
+   border: none;
+   background-color: black;
+   cursor: pointer;
+    
+}    
 html {
     background-color: black;
     width: 100vw;
@@ -59,19 +66,11 @@ a {
     bottom: 50px;    
 
 }
-#buttons {
-    text-align: center;
-}
-#download1 {
-    border: none;
-    font-family: Ioskeva;
-    color: white;
-    background-color: black;
-    cursor: pointer;
-    font-size: x-large;
-    margin: auto;
-}
 
+.headerlink {
+    font-family: Ioskeva;
+    font-size: 30px;
+}
 
 @font-face {
     font-family: Anonymous Pro;

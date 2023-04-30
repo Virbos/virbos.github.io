@@ -5,14 +5,7 @@
     text-align: center;
     height: 143px;
 }
-#secret-test {
-   color: black;
-   border: none;
-   background-color: black;
-   cursor: pointer;
-    
-}    
-html {
+body {
     background-color: black;
     width: 100vw;
     height: 100vh;
@@ -24,6 +17,27 @@ html {
 a {
     color: lawngreen;
 }
+
+p {
+    color: white;
+    font-family: Anonymous Pro;
+}
+
+@keyframes unblur {
+    from {
+        filter: blur(3px);
+    }
+
+    to {
+        filter: blur(0);
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Ioskeva;
+    color: white;
+}
+
 #get-button {
     font-family: Anonymous Pro;
     color: lawngreen;
@@ -32,18 +46,6 @@ a {
     border: none;
     cursor: pointer;
     
-}
-#home-button {
-    font-family: Anonymous Pro;
-    color: lawngreen;
-    background-color: black;
-    font-size:xx-large;
-    border-color: lawngreen;
-    border: none;
-    cursor: pointer;
-    position: relative;
-    bottom: 112px;
-    left: 350px;
 }
 #border {
     border: 5px;
@@ -65,6 +67,23 @@ a {
     border: none;
     bottom: 50px;    
 
+}
+#buttons {
+    text-align: center;
+}
+button {
+    border: none;
+    font-family: Ioskeva;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-size: x-large;
+    margin: auto;
+    border-style:solid;
+    border-color: rgb(94, 94, 94);
+}
+button:hover {
+    border-color: lawngreen;
 }
 
 
