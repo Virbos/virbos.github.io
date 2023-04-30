@@ -1,2 +1,2 @@
 # virbos.github.io
-Website for Virbos project, hope it will be merged sometime
+Website for Virbos project, hope this fork will be merged
