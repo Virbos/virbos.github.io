@@ -9,6 +9,7 @@ body {
     background-color: black;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 #virbos-logo {
     position: relative;
@@ -17,20 +18,17 @@ body {
 a {
     color: lawngreen;
 }
+a:hover {
+    color: rgb(41, 185, 41);
+}
+
+.green {
+    color: lawngreen;
+}
 
 p {
     color: white;
     font-family: Anonymous Pro;
-}
-
-@keyframes unblur {
-    from {
-        filter: blur(3px);
-    }
-
-    to {
-        filter: blur(0);
-    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -42,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Anonymous Pro;
     color: lawngreen;
     background-color: black;
-    font-size:xx-large;
+    font-size: 35px;
     border: none;
     cursor: pointer;
     
@@ -57,6 +55,11 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     height: 45px;
 }
+
+.headerlink {
+    font-size: 30px;
+}
+
 #welcome-text {
     position: relative;
     padding: -10px;
@@ -77,7 +80,7 @@ button {
     color: white;
     background-color: black;
     cursor: pointer;
-    font-size: x-large;
+    font-size: 25px;
     margin: auto;
     border-style:solid;
     border-color: rgb(94, 94, 94);
@@ -89,10 +92,10 @@ button:hover {
 
 @font-face {
     font-family: Anonymous Pro;
-    src: url('/Anonymous Pro.ttf');
+    src: url('Anonymous Pro.ttf');
 }   
 
 @font-face {
     font-family: Iosevka;
-    src: url('/Iosevka.ttf')
+    src: url('Iosevka.ttf')
 }
