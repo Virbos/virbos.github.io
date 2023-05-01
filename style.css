@@ -34,7 +34,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Ioskeva;
+    font-family: Iosevka;
     color: white;
 }
 
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     padding: -10px;
     height: 45px;
-    font-family: Ioskeva;
+    font-family: Iosevka;
     color: white;
     text-align: center;
     border: none;
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 button {
     border: none;
-    font-family: Ioskeva;
+    font-family: Iosevka;
     color: white;
     background-color: black;
     cursor: pointer;
@@ -89,10 +89,10 @@ button:hover {
 
 @font-face {
     font-family: Anonymous Pro;
-    src: url('font.ttf');
+    src: url('/Anonymous Pro.ttf');
 }   
 
 @font-face {
-    font-family: Ioskeva;
-    src: url('font2.ttf')
+    font-family: Iosevka;
+    src: url('/Iosevka.ttf')
 }
