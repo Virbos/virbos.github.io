@@ -120,6 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 button {
     border: none;
     font-family: Iosevka;
+    color: var(--white);
     background-color: var(--black);
     cursor: pointer;
     font-size: 2rem;
