@@ -5,7 +5,7 @@
 }
 
 * {
-    font-family: "Iosevka";
+    font-family: "Iosevka Web", monospace;
     color: white;
 }
 
@@ -67,4 +67,10 @@ a:active {
     height: 100%;
     z-index: -1;
     border-width: 0px;
+}
+
+/* Text Selection */
+::selection, ::-moz-selection {
+    background: var(--accent);
+    color: var(--background);
 }
