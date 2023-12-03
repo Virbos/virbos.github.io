@@ -1,0 +1,70 @@
+:root {
+    --accent: #00ff00;
+    --white: white;
+    --background: black;
+}
+
+* {
+    font-family: "Iosevka";
+    color: white;
+}
+
+html {
+    background-color: var(--background);
+
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    flex-direction: column;
+}
+
+div.links {
+    padding-top: 20px;
+    flex-direction: row;
+}
+
+div.links, html, body {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title, .title b {
+    color: var(--accent);
+    font-size: 128px;
+}
+
+.subtitle, .subtitle b {
+    color: var(--accent);
+    font-size: 24px;
+}
+
+a {
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    color: var(--accent)
+}
+
+a:hover {
+    background-color: var(--accent);
+    color: #000000;
+    font-weight: 700;
+}
+
+a:active {
+    background-color: var(--white);
+    color: #000000;
+    font-weight: 700;
+}
+
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-width: 0px;
+}
