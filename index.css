@@ -1,0 +1,99 @@
+:root {
+    --accent: #00ff00;
+    --white: white;
+    --background: black;
+    --surface-tinted: rgba(0, 0, 0, 0.01);
+}
+
+* {
+    font-family: "Iosevka Web", monospace;
+    color: white;
+}
+
+html {
+    background-color: var(--background);
+
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    flex-direction: column;
+}
+
+div.links {
+    padding-top: 20px;
+    flex-direction: row;
+}
+
+div.links, html, body {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title, .title b {
+    color: var(--accent);
+    font-size: 128px;
+}
+
+.subtitle, .subtitle b {
+    color: var(--accent);
+    font-size: 24px;
+}
+
+a {
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    color: var(--white);
+    text-decoration: none;
+    margin: 3px;
+    border-radius: 12px;
+    border-color: var(--white);
+    border-style:solid;
+    background-color: none;
+    transition-duration: 150ms;
+    transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}
+
+a:hover {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: #000000;
+    font-weight: 700;
+}
+
+a:active {
+    color: #000000;
+    font-weight: 700;
+    scale: 0.95;
+}
+
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-width: 0px;
+}
+
+/* Text Selection */
+::selection, ::-moz-selection {
+    background: var(--accent);
+    color: var(--background);
+}
+
+.main {
+    background-color: var(--surface-tinted);
+    backdrop-filter: blur(20px);
+    min-width: 560px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+
+    box-shadow: 0px 0px 20px var(--accent);
+}
