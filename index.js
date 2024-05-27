@@ -3,7 +3,7 @@ console.log("Hello, curious one");
 var i = 0;
 var x = 0;
 var titletxt = 'Virbos';
-var subtitletxt = 'The linux distribution for nerds, by nerds.';
+var subtitletxt = 'The Linux distribution for nerds, by nerds.';
 var speed = 50; /* ms */
 
 function delay(time) {
